@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let data = [
+        [73.68859331969483, 18.58253153884135],
+        [73.69238062082985, 18.582957206608498],
+        [73.69449688661521, 18.583358897888857],
+        [73.695132233447, 18.584046423076188],
+      ];
+      let newSet = [];
+      let newData = data.map((a) => {
+        return newSet.push([a[1], a[0]]);
+      });
+      console.log(newSet);
+    </script>
+  </body>
+</html>
